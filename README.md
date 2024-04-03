@@ -31,9 +31,9 @@ Tabela de conteúdos
    * [Layout](#-layout)
      * [Mobile](#mobile)
      * [Web](#web)
-   * [Como executar o projeto](#-Como-executar-o-projeto)
+   * [Como executar o projeto](#Como-executar-o-projeto)
      * [Pré-requisitos](#pré-requisitos)
-     * [Rodando a aplicação web (Frontend)](#user-content--rodando-o-Front-End)
+     * [Rodando a aplicação web (Frontend)](#user-content--Rodando-o-Front-End-(web))
    * [Tecnologias](#-tecnologias)
    * [Autor](#-autor)
 <!--te-->
@@ -70,6 +70,12 @@ O layout da aplicação está disponível no Figma:
 
 ---
 ### Como executar o projeto
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
 ### 🎲 Rodando o Front End (web)
 
 ```bash
