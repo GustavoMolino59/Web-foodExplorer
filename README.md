@@ -69,7 +69,7 @@ O layout da aplicação está disponível no Figma:
 ---
 
 ---
-### Pré-requisitos
+### Como executar o projeto
 ### 🎲 Rodando o Front End (web)
 
 ```bash
