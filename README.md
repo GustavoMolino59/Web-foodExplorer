@@ -33,9 +33,9 @@ Tabela de conteúdos
      * [Web](#web)
    * [Como executar o projeto](#Como-executar-o-projeto)
      * [Pré-requisitos](#pré-requisitos)
-     * [Rodando a aplicação web (Frontend)](#user-content--Rodando-o-Front-End-(web))
+     * [Rodando a aplicação web (Frontend)](#user-content--rodando-o-front-end-web)
    * [Tecnologias](#-tecnologias)
-   * [Organização](#-Organizacao)
+   * [Organização](#-organização)
    * [Autor](#-autor)
 <!--te-->
 
