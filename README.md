@@ -1,13 +1,76 @@
-# Nome do Projeto
-FrontEnd foodExplorer
+<h1 align="center">
+      <a href="#" alt="Food explorer"> food Explorer </a>
+</h1>
+<h3 align="center">
+    Site de compra venda de refeições online feito por uma empresa fictícia chamda Food explorer
+</h3>
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/GustavoMolino59/Web-foodExplorer?color=%2304D361">
 
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/GustavoMolino59/Web-foodExplorer">
+  
+  <a href="https://github.com/GustavoMolino59/Web-foodExplorer/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/GustavoMolino59/Web-foodExplorer">
+  </a>
+    
+   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+   <a href="https://github.com/GustavoMolino59/Web-foodExplorer/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/GustavoMolino59/Web-foodExplorer?style=social">
+  </a>
+ 
+</p>
 
+<h4 align="center">
+	🚧   Concluído 🚀 🚧
+</h4>
 
-## Status do projeto
-Finalizado
+Tabela de conteúdos
+=================
+<!--ts-->
+   * [Sobre o projeto](#-sobre-o-projeto)
+   * [Layout](#-layout)
+     * [Mobile](#mobile)
+     * [Web](#web)
+   * [Como executar o projeto](#-como-executar-o-projeto)
+     * [Pré-requisitos](#pré-requisitos)
+     * [Rodando a aplicação web (Frontend)](#user-content--rodando-o-Front-End)
+   * [Tecnologias](#-tecnologias)
+   * [Autor](#-autor)
+<!--te-->
 
+## 💻 Sobre o projeto
+
+Projeto desenvolvido durante a **Jornada explorer Rocketseat** oferecida pela [Rocketseat](https://blog.rocketseat.com.br/primeira-next-level-week/).
+
+## 🎨 Layout
+
+O layout da aplicação está disponível no Figma:
+
+<a href="https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta?node-id=136%3A546](https://www.figma.com/file/58PNQqTL1hGEm6Gdg0E0k2/food-explorer-v2-(Community)?type=design&node-id=96-6333&mode=design&t=FSjE7JhGYZ3hx0Ih-0)">
+  <img alt="Made by RocketSeat" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
+</a>
+
+### Mobile
+
+<p align="center">
+  <img alt="Food explorer web mobile" title="#Food explorer web mobile ex" src="" width="200px">
+
+  <img alt="Food explorer web mobile" title="#Food explorer web mobile" src="" width="200px">
+</p>
+
+### Web
+
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="Food explorer web " title="#Food explorer web " src="" width="400px">
+
+  <img alt="Food explorer web mobile" title="#Food explorer web mobile" src="" width="400px">
+</p>
+
+---
+
+---
 ### Pré-requisitos
-### 🎲 Rodando o Back End (servidor)
+### 🎲 Rodando o Front End (web)
 
 ```bash
 # Clone este repositório
@@ -30,13 +93,21 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 ```
-## Tecnologias Utilizadas
-- HTML
-- [ReactJS] (https://react.dev/)
-- [StyledComponents] (https://styled-components.com/)
-- [Vite] (https://vitejs.dev/)
-- [Axios] (https://axios-http.com/ptbr/)
+## 🛠 Tecnologias
 
+As seguintes ferramentas foram usadas na construção do projeto:
+
+#### **Website**  ([React](https://reactjs.org/)  +  [TypeScript](https://www.typescriptlang.org/))
+
+-   **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
+-   **[React Icons](https://react-icons.github.io/react-icons/)**
+-   **[Axios](https://github.com/axios/axios)**
+-   HTML**
+-   **[ReactJS] (https://react.dev/)**
+-   **[StyledComponents] (https://styled-components.com/)**
+-   **[Vite] (https://vitejs.dev/)**
+
+> Veja o arquivo  [package.json](https://github.com/GustavoMolino59/Web-foodExplorer/blob/main/package.json)
 
 ## Organização
 O sistema é organizado de forma componentizada. Cada item que se repete e/ou é utilizado em mais de uma página se tornou um componente distinto. De modo que foram criados os seugintes componentes:
