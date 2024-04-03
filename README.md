@@ -35,6 +35,7 @@ Tabela de conteúdos
      * [Pré-requisitos](#pré-requisitos)
      * [Rodando a aplicação web (Frontend)](#user-content--Rodando-o-Front-End-(web))
    * [Tecnologias](#-tecnologias)
+   * [Organização](#-Organização)
    * [Autor](#-autor)
 <!--te-->
 
