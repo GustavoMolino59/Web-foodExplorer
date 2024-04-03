@@ -31,7 +31,7 @@ Tabela de conteúdos
    * [Layout](#-layout)
      * [Mobile](#mobile)
      * [Web](#web)
-   * [Como executar o projeto](#-como-executar-o-projeto)
+   * [Como executar o projeto](#-Como-executar-o-projeto)
      * [Pré-requisitos](#pré-requisitos)
      * [Rodando a aplicação web (Frontend)](#user-content--rodando-o-Front-End)
    * [Tecnologias](#-tecnologias)
