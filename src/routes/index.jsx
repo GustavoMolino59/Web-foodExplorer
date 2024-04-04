@@ -29,17 +29,15 @@ export function Routes(){
     
     
     function AcessRoute(){
-        getValidated()
-        if(authorized){
-            switch(user.role){
-                case USER_ROLE.ADMIN:
-                    return <AdminRoutes/>;
-                case USER_ROLE.COSTUMER:
-                    return <CostumerRoutes/>;
-                default:
-                    return <CostumerRoutes/>;
-            }
+        switch(user.role){
+            case USER_ROLE.ADMIN:
+                return <AdminRoutes/>;
+            case USER_ROLE.COSTUMER:
+                return <CostumerRoutes/>;
+            default:
+                return <CostumerRoutes/>;
         }
+        
     }
     return(
         <BrowserRouter>
