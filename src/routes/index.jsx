@@ -14,12 +14,14 @@ export function Routes(){
         
     async function getValidated(){
         console.log(user)
-        try{
-            await api.get('/users/validated')
-            setAuthorized(true)
-        }catch(error){
-            setAuthorized(false)
-            signOut()
+        if(user){
+            try{
+                await api.get('/users/validated')
+                setAuthorized(true)
+            }catch(error){
+                setAuthorized(false)
+                signOut()
+            }
         }
 
         
