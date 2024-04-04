@@ -37,7 +37,7 @@ function AuthProvider({children}){
 
     useEffect( () => {
         const user =  localStorage.getItem("@foodexplorer:user")
-        console.lof(user)
+        console.log(user)
         if(user){
             setData({
                 user:JSON.parse(user)
