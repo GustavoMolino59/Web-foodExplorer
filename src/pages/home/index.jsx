@@ -15,9 +15,17 @@ export function Home(){
     const [meals, setMeals] = useState([])
     useEffect(() =>{
         async function fetchMeals(){
-            const response = await api.get("/meal")
-            const meals = response.data;
-            setMeals(meals)
+            try{
+                const response = await api.get("/meal")
+                const meals = response.data;
+                setMeals(meals)
+            }catch(error){
+                if(error.response){
+                    alert(error.response.data.message)
+                }else{
+                    alert("Não foi possível conectar")
+                }
+            }
             //meals.map(meal => (<Meal key={String(meal.id)} meal_name={meal.name}/>))
         }
         fetchMeals()
