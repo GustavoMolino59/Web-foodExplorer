@@ -38,11 +38,10 @@ function AuthProvider({children}){
     useEffect( () => {
         const user =  localStorage.getItem("@foodexplorer:user")
         console.log(user)
-        if(user){
-            setData({
-                user:JSON.parse(user)
-            })
-        }
+        setData({
+            user:JSON.parse(user)
+        })
+        
     }, [])
 
     return(
