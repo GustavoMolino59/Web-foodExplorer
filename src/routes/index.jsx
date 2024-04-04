@@ -12,23 +12,25 @@ export function Routes(){
     const{ user, signOut} = useAuth()
   
      
-    useEffect(() => {
-        async function getValidated(){
-            console.log(user)
-            
-                try{
-                    await api.get('/users/validated')
-                }catch(error){
-                    signOut()
-                }
-        }
-        getValidated()
-    },[])
+   
+    async function getValidated(){
+        console.log('entrou na validated')
+        
+            try{
+                await api.get('/users/validated')
+                setAuthorized(true)
+            }catch(error){
+                signOut()
+                setAuthorized(false)
+            }
+    }
+        
     
     
     
     function AcessRoute(){
-        
+        getValidated()
+        if(authorized){
             switch(user.role){
                 case USER_ROLE.ADMIN:
                     return <AdminRoutes/>;
@@ -37,6 +39,7 @@ export function Routes(){
                 default:
                     return <CostumerRoutes/>;
             }
+        }
     }
     return(
         <BrowserRouter>
