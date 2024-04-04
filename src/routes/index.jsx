@@ -8,23 +8,35 @@ import { USER_ROLE } from "../utils/roles";
 import { useEffect, useState } from "react";
 import { api } from "../services/api";
 export function Routes(){
-    //const[authorized, setAuthorized] = useState(false)
+    const[authorized, setAuthorized] = useState(false)
     const{ user, signOut} = useAuth()
   
         
-   
+    async function getValidated(){
+        try{
+            await api.get('/users/validated')
+            setAuthorized(true)
+        }catch(error){
+            setAuthorized(false)
+            signOut()
+        }
+
+        
+    }
     
     
     function AcessRoute(){
-        switch(user.role){
-            case USER_ROLE.ADMIN:
-                return <AdminRoutes/>;
-            case USER_ROLE.COSTUMER:
-                return <CostumerRoutes/>;
-            default:
-                return <CostumerRoutes/>;
+        getValidated()
+        if(authorized){
+            switch(user.role){
+                case USER_ROLE.ADMIN:
+                    return <AdminRoutes/>;
+                case USER_ROLE.COSTUMER:
+                    return <CostumerRoutes/>;
+                default:
+                    return <CostumerRoutes/>;
+            }
         }
-        
     }
     return(
         <BrowserRouter>
