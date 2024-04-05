@@ -53,7 +53,7 @@ export function Payment(){
         setPaymentSent(true)
         try{
             const response = await api.patch('/payment/', {creditCard,CVV,validity })
-            console.log(response)
+            
             setPaymentAccepted(true)
             
         }

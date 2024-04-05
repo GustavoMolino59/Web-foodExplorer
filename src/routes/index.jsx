@@ -14,7 +14,7 @@ export function Routes(){
      
    
     async function getValidated(){
-        console.log('entrou na validated')
+        
         
             try{
                 await api.get('/users/validated')

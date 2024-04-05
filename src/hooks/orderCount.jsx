@@ -12,7 +12,7 @@ function OrderProvider({ children }) {
 
   function handleOrders(order){
     setOrders([...orders, order]);
-    console.log(orders)
+    
   }
   
   return (
