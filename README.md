@@ -42,6 +42,7 @@ Tabela de conteúdos
 ## 💻 Sobre o projeto
 
 Projeto desenvolvido durante a **Jornada explorer Rocketseat** oferecida pela [Rocketseat](https://blog.rocketseat.com.br/primeira-next-level-week/).
+Link projeto em Produção: https://foodexplorergm.netlify.app/
 
 ## 🎨 Layout
 
