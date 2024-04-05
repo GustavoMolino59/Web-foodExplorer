@@ -44,6 +44,7 @@ Tabela de conteúdos
 Projeto desenvolvido durante a **Jornada explorer Rocketseat** oferecida pela [Rocketseat](https://blog.rocketseat.com.br/primeira-next-level-week/).
 **Link projeto em Produção: https://foodexplorergm.netlify.app/**
 **Usuário admin: email: teste@gmail.com  / senha:123Teste@**
+- **Desative o bloqueio de cookies de terceiros para que o site roda perfeitamente**
 
 ## 🎨 Layout
 
