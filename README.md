@@ -56,7 +56,7 @@ O layout da aplicação está disponível no Figma:
 ### Mobile
 
 <p align="center">
-  <img alt="Food explorer web mobile" title="#Food explorer web mobile ex" src="src/assets/Desktop-Login.png" width="200px">
+  <img alt="Food explorer web mobile" title="#Food explorer web mobile ex" src="src/assets/Mobile-Login.png" width="200px">
 
   <img alt="Food explorer web mobile" title="#Food explorer web mobile" src="src/assets/HomePageMobile.png" width="200px">
 </p>
