@@ -42,30 +42,31 @@ Tabela de conteúdos
 ## 💻 Sobre o projeto
 
 Projeto desenvolvido durante a **Jornada explorer Rocketseat** oferecida pela [Rocketseat](https://blog.rocketseat.com.br/primeira-next-level-week/).
-Link projeto em Produção: https://foodexplorergm.netlify.app/
+**Link projeto em Produção: https://foodexplorergm.netlify.app/**
+**Usuário admin: email: teste@gmail.com  / senha:123Teste@**
 
 ## 🎨 Layout
 
 O layout da aplicação está disponível no Figma:
 
-<a href="https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta?node-id=136%3A546](https://www.figma.com/file/58PNQqTL1hGEm6Gdg0E0k2/food-explorer-v2-(Community)?type=design&node-id=96-6333&mode=design&t=FSjE7JhGYZ3hx0Ih-0)">
-  <img alt="Made by RocketSeat" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
+<a href="[https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta?node-id=136%3A546](https://www.figma.com/file/58PNQqTL1hGEm6Gdg0E0k2/food-explorer-v2-(Community)?type=design&node-id=96-6333&mode=design&t=FSjE7JhGYZ3hx0Ih-0)"](https://www.figma.com/file/58PNQqTL1hGEm6Gdg0E0k2/food-explorer-v2-(Community)?type=design&node-id=96-6333&mode=design&t=FSjE7JhGYZ3hx0Ih-0)">
+  <img alt="Made by Gustavo Molino" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
 </a>
 
 ### Mobile
 
 <p align="center">
-  <img alt="Food explorer web mobile" title="#Food explorer web mobile ex" src="" width="200px">
+  <img alt="Food explorer web mobile" title="#Food explorer web mobile ex" src="src/assets/Desktop-Login.png" width="200px">
 
-  <img alt="Food explorer web mobile" title="#Food explorer web mobile" src="" width="200px">
+  <img alt="Food explorer web mobile" title="#Food explorer web mobile" src="src/assets/HomePageMobile.png" width="200px">
 </p>
 
 ### Web
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="Food explorer web " title="#Food explorer web " src="" width="400px">
+  <img alt="Food explorer web " title="#Food explorer web " src="src/assets/Desktop-Login.png" width="400px">
 
-  <img alt="Food explorer web mobile" title="#Food explorer web mobile" src="" width="400px">
+  <img alt="Food explorer web mobile" title="#Food explorer web mobile" src="src/assets/homePageDesktop.png" width="400px">
 </p>
 
 ---
